@@ -1,0 +1,30 @@
+
+Looking up telcoanniv.com
+Unable to locate remote host telcoanniv.com.
+Alert!: Unable to connect to remote host.
+
+lynx: Can't access startfile http://telcoanniv.com/togo/smsbroadcast/creer_date_sms.php
+
+Looking up telcoanniv.com
+Unable to locate remote host telcoanniv.com.
+Alert!: Unable to connect to remote host.
+
+lynx: Can't access startfile http://telcoanniv.com/togo/smsbroadcast/creer_date_sms.php
+                               Object not found!
+
+   The requested URL was not found on this server. If you entered the URL
+   manually please check your spelling and try again.
+
+   If you think this is a server error, please contact the [1]webmaster.
+
+Error 404
+
+
+    [2]www.telcoanniv.com
+    Apache/2.4.16 (Unix) OpenSSL/1.0.1p PHP/5.6.12 mod_perl/2.0.8-dev
+    Perl/v5.16.3
+
+References
+
+   1. mailto:webmaster@dummy-host.example.com
+   2. http://www.telcoanniv.com/

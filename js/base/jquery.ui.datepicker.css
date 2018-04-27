@@ -1,0 +1,68 @@
+/*
+ * jQuery UI Datepicker 1.8.16
+ *
+ * Copyright 2011, AUTHORS.txt (http://jqueryui.com/about)
+ * Dual licensed under the MIT or GPL Version 2 licenses.
+ * http://jquery.org/license
+ *
+ * http://docs.jquery.com/UI/Datepicker#theming
+ */
+.ui-inputField { width: 17em; padding: .2em .2em 0; display: none; }
+.ui-inputField .ui-inputField-header { position:relative; padding:.2em 0; }
+.ui-inputField .ui-inputField-prev, .ui-inputField .ui-inputField-next { position:absolute; top: 2px; width: 1.8em; height: 1.8em; }
+.ui-inputField .ui-inputField-prev-hover, .ui-inputField .ui-inputField-next-hover { top: 1px; }
+.ui-inputField .ui-inputField-prev { left:2px; }
+.ui-inputField .ui-inputField-next { right:2px; }
+.ui-inputField .ui-inputField-prev-hover { left:1px; }
+.ui-inputField .ui-inputField-next-hover { right:1px; }
+.ui-inputField .ui-inputField-prev span, .ui-inputField .ui-inputField-next span { display: block; position: absolute; left: 50%; margin-left: -8px; top: 50%; margin-top: -8px;  }
+.ui-inputField .ui-inputField-title { margin: 0 2.3em; line-height: 1.8em; text-align: center; }
+.ui-inputField .ui-inputField-title select { font-size:1em; margin:1px 0; }
+.ui-inputField select.ui-inputField-month-year {width: 100%;}
+.ui-inputField select.ui-inputField-month, 
+.ui-inputField select.ui-inputField-year { width: 49%;}
+.ui-inputField table {width: 100%; font-size: .9em; border-collapse: collapse; margin:0 0 .4em; }
+.ui-inputField th { padding: .7em .3em; text-align: center; font-weight: bold; border: 0;  }
+.ui-inputField td { border: 0; padding: 1px; }
+.ui-inputField td span, .ui-inputField td a { display: block; padding: .2em; text-align: right; text-decoration: none; }
+.ui-inputField .ui-inputField-buttonpane { background-image: none; margin: .7em 0 0 0; padding:0 .2em; border-left: 0; border-right: 0; border-bottom: 0; }
+.ui-inputField .ui-inputField-buttonpane button { float: right; margin: .5em .2em .4em; cursor: pointer; padding: .2em .6em .3em .6em; width:auto; overflow:visible; }
+.ui-inputField .ui-inputField-buttonpane button.ui-inputField-current { float:left; }
+
+/* with multiple calendars */
+.ui-inputField.ui-inputField-multi { width:auto; }
+.ui-inputField-multi .ui-inputField-group { float:left; }
+.ui-inputField-multi .ui-inputField-group table { width:95%; margin:0 auto .4em; }
+.ui-inputField-multi-2 .ui-inputField-group { width:50%; }
+.ui-inputField-multi-3 .ui-inputField-group { width:33.3%; }
+.ui-inputField-multi-4 .ui-inputField-group { width:25%; }
+.ui-inputField-multi .ui-inputField-group-last .ui-inputField-header { border-left-width:0; }
+.ui-inputField-multi .ui-inputField-group-middle .ui-inputField-header { border-left-width:0; }
+.ui-inputField-multi .ui-inputField-buttonpane { clear:left; }
+.ui-inputField-row-break { clear:both; width:100%; font-size:0em; }
+
+/* RTL support */
+.ui-inputField-rtl { direction: rtl; }
+.ui-inputField-rtl .ui-inputField-prev { right: 2px; left: auto; }
+.ui-inputField-rtl .ui-inputField-next { left: 2px; right: auto; }
+.ui-inputField-rtl .ui-inputField-prev:hover { right: 1px; left: auto; }
+.ui-inputField-rtl .ui-inputField-next:hover { left: 1px; right: auto; }
+.ui-inputField-rtl .ui-inputField-buttonpane { clear:right; }
+.ui-inputField-rtl .ui-inputField-buttonpane button { float: left; }
+.ui-inputField-rtl .ui-inputField-buttonpane button.ui-inputField-current { float:right; }
+.ui-inputField-rtl .ui-inputField-group { float:right; }
+.ui-inputField-rtl .ui-inputField-group-last .ui-inputField-header { border-right-width:0; border-left-width:1px; }
+.ui-inputField-rtl .ui-inputField-group-middle .ui-inputField-header { border-right-width:0; border-left-width:1px; }
+
+/* IE6 IFRAME FIX (taken from inputField 1.5.3 */
+.ui-inputField-cover {
+    display: none; /*sorry for IE5*/
+    display/**/: block; /*sorry for IE5*/
+    position: absolute; /*must have*/
+    z-index: -1; /*must have*/
+    filter: mask(); /*must have*/
+    top: -4px; /*must have*/
+    left: -4px; /*must have*/
+    width: 200px; /*must have*/
+    height: 200px; /*must have*/
+}
